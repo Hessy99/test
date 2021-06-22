@@ -1,0 +1,402 @@
+[0.000000] (-) TimerEvent: {}
+[0.000982] (blackboard_interfaces) JobQueued: {'identifier': 'blackboard_interfaces', 'dependencies': OrderedDict()}
+[0.001370] (sshros) JobQueued: {'identifier': 'sshros', 'dependencies': OrderedDict()}
+[0.002286] (blackboard_interfaces) JobStarted: {'identifier': 'blackboard_interfaces'}
+[0.052831] (sshros) JobStarted: {'identifier': 'sshros'}
+[0.099765] (-) TimerEvent: {}
+[0.117876] (blackboard_interfaces) JobProgress: {'identifier': 'blackboard_interfaces', 'progress': 'cmake'}
+[0.121893] (blackboard_interfaces) JobProgress: {'identifier': 'blackboard_interfaces', 'progress': 'build'}
+[0.125131] (blackboard_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/workspace/build/blackboard_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/workspace/build/blackboard_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2470'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/workspace/install/blackboard_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_IP', '192.168.1.2'), ('MANAGERPID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:72403'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2542,unix/ubuntu:/tmp/.ICE-unix/2542'), ('INVOCATION_ID', '442862fe864e4083ba75904dc897bbb5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d3caf0a_98cd_4a56_befc_17d785013aa4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.68'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/workspace/install/sshros:/home/ubuntu/workspace/install/blackboard_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'https://192.168.1.2:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/workspace/build/blackboard_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/workspace/build/sshros:/home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages:/home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/workspace/install/blackboard_interfaces:/home/ubuntu/workspace/install/sshros:/opt/ros/foxy')]), 'shell': False}
+[0.199923] (-) TimerEvent: {}
+[0.300917] (-) TimerEvent: {}
+[0.327429] (blackboard_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.401161] (-) TimerEvent: {}
+[0.496254] (blackboard_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.497157] (blackboard_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.501297] (-) TimerEvent: {}
+[0.601997] (-) TimerEvent: {}
+[0.702741] (-) TimerEvent: {}
+[0.803472] (-) TimerEvent: {}
+[0.904209] (-) TimerEvent: {}
+[1.004919] (-) TimerEvent: {}
+[1.105762] (-) TimerEvent: {}
+[1.206493] (-) TimerEvent: {}
+[1.308829] (-) TimerEvent: {}
+[1.340677] (sshros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/ubuntu/workspace/install/sshros', '--editable', '--build-directory', '/home/ubuntu/workspace/build/sshros/build', '--no-deps', 'install_data', '--install-dir', '/home/ubuntu/workspace/install/sshros'], 'cwd': '/home/ubuntu/workspace/build/sshros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '2470', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/workspace/install/blackboard_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_IP': '192.168.1.2', 'MANAGERPID': '2351', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/workspace/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:72403', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2542,unix/ubuntu:/tmp/.ICE-unix/2542', 'INVOCATION_ID': '442862fe864e4083ba75904dc897bbb5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0d3caf0a_98cd_4a56_befc_17d785013aa4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.68', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/workspace/install/sshros:/home/ubuntu/workspace/install/blackboard_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'https://192.168.1.2:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/workspace/build/sshros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages:/home/ubuntu/workspace/build/sshros:/home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages:/home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/workspace/install/blackboard_interfaces'}, 'shell': False}
+[1.409183] (-) TimerEvent: {}
+[1.473469] (blackboard_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.509292] (-) TimerEvent: {}
+[1.554491] (blackboard_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.609457] (-) TimerEvent: {}
+[1.710223] (-) TimerEvent: {}
+[1.712548] (blackboard_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.735020] (blackboard_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.810399] (-) TimerEvent: {}
+[1.911144] (-) TimerEvent: {}
+[2.011917] (-) TimerEvent: {}
+[2.112735] (-) TimerEvent: {}
+[2.213471] (-) TimerEvent: {}
+[2.314259] (-) TimerEvent: {}
+[2.415087] (-) TimerEvent: {}
+[2.451894] (sshros) StdoutLine: {'line': b'running develop\n'}
+[2.490130] (blackboard_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.515261] (-) TimerEvent: {}
+[2.615979] (-) TimerEvent: {}
+[2.716844] (-) TimerEvent: {}
+[2.817730] (-) TimerEvent: {}
+[2.917848] (blackboard_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.918468] (-) TimerEvent: {}
+[3.019171] (-) TimerEvent: {}
+[3.101344] (sshros) StdoutLine: {'line': b'running egg_info\n'}
+[3.102647] (sshros) StdoutLine: {'line': b'writing sshros.egg-info/PKG-INFO\n'}
+[3.104695] (sshros) StdoutLine: {'line': b'writing dependency_links to sshros.egg-info/dependency_links.txt\n'}
+[3.106416] (sshros) StdoutLine: {'line': b'writing entry points to sshros.egg-info/entry_points.txt\n'}
+[3.107702] (sshros) StdoutLine: {'line': b'writing requirements to sshros.egg-info/requires.txt\n'}
+[3.108922] (sshros) StdoutLine: {'line': b'writing top-level names to sshros.egg-info/top_level.txt\n'}
+[3.119456] (blackboard_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[3.120220] (-) TimerEvent: {}
+[3.221767] (-) TimerEvent: {}
+[3.279842] (sshros) StdoutLine: {'line': b"reading manifest file 'sshros.egg-info/SOURCES.txt'\n"}
+[3.283761] (sshros) StdoutLine: {'line': b"writing manifest file 'sshros.egg-info/SOURCES.txt'\n"}
+[3.289707] (sshros) StdoutLine: {'line': b'running build_ext\n'}
+[3.291118] (sshros) StdoutLine: {'line': b'Creating /home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages/sshros.egg-link (link to .)\n'}
+[3.295266] (sshros) StdoutLine: {'line': b'Installing test script to /home/ubuntu/workspace/install/sshros/lib/sshros\n'}
+[3.296609] (sshros) StdoutLine: {'line': b'\n'}
+[3.297347] (sshros) StdoutLine: {'line': b'Installed /home/ubuntu/workspace/build/sshros\n'}
+[3.297960] (sshros) StdoutLine: {'line': b'running install_data\n'}
+[3.322104] (-) TimerEvent: {}
+[3.423299] (-) TimerEvent: {}
+[3.426091] (sshros) CommandEnded: {'returncode': 0}
+[3.515539] (sshros) JobEnded: {'identifier': 'sshros', 'rc': 0}
+[3.523462] (-) TimerEvent: {}
+[3.624162] (-) TimerEvent: {}
+[3.724873] (-) TimerEvent: {}
+[3.825670] (-) TimerEvent: {}
+[3.835001] (blackboard_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.925898] (-) TimerEvent: {}
+[4.026593] (-) TimerEvent: {}
+[4.127370] (-) TimerEvent: {}
+[4.228171] (-) TimerEvent: {}
+[4.329103] (-) TimerEvent: {}
+[4.412426] (blackboard_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.429299] (-) TimerEvent: {}
+[4.454523] (blackboard_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.529439] (-) TimerEvent: {}
+[4.604540] (blackboard_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[4.607204] (blackboard_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[4.629593] (-) TimerEvent: {}
+[4.730303] (-) TimerEvent: {}
+[4.747580] (blackboard_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.748447] (blackboard_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.748910] (blackboard_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[4.826581] (blackboard_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.830443] (-) TimerEvent: {}
+[4.931145] (-) TimerEvent: {}
+[4.936626] (blackboard_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.958274] (blackboard_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.972201] (blackboard_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.017891] (blackboard_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.031315] (-) TimerEvent: {}
+[5.132139] (-) TimerEvent: {}
+[5.231247] (blackboard_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.232257] (-) TimerEvent: {}
+[5.251925] (blackboard_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/workspace/build/blackboard_interfaces\n'}
+[5.332476] (-) TimerEvent: {}
+[5.380486] (blackboard_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.426466] (blackboard_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.432643] (-) TimerEvent: {}
+[5.533517] (-) TimerEvent: {}
+[5.634271] (-) TimerEvent: {}
+[5.734996] (-) TimerEvent: {}
+[5.835860] (-) TimerEvent: {}
+[5.936955] (-) TimerEvent: {}
+[6.037719] (-) TimerEvent: {}
+[6.138516] (-) TimerEvent: {}
+[6.239527] (-) TimerEvent: {}
+[6.340227] (-) TimerEvent: {}
+[6.440953] (-) TimerEvent: {}
+[6.541837] (-) TimerEvent: {}
+[6.643213] (-) TimerEvent: {}
+[6.700200] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__rosidl_generator_c\x1b[0m\n'}
+[6.714359] (blackboard_interfaces) StdoutLine: {'line': b'[  6%] Built target blackboard_interfaces__cpp\n'}
+[6.743756] (-) TimerEvent: {}
+[6.775836] (blackboard_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.777615] (blackboard_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.788797] (blackboard_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.803797] (blackboard_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/blackboard_interfaces__rosidl_generator_c.dir/rosidl_generator_c/blackboard_interfaces/msg/detail/task_msg__functions.c.o\x1b[0m\n'}
+[6.843903] (-) TimerEvent: {}
+[6.944833] (-) TimerEvent: {}
+[7.046263] (-) TimerEvent: {}
+[7.148096] (-) TimerEvent: {}
+[7.249890] (-) TimerEvent: {}
+[7.352373] (-) TimerEvent: {}
+[7.456173] (-) TimerEvent: {}
+[7.557565] (-) TimerEvent: {}
+[7.658801] (-) TimerEvent: {}
+[7.760129] (-) TimerEvent: {}
+[7.822017] (blackboard_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libblackboard_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.860326] (-) TimerEvent: {}
+[7.963043] (-) TimerEvent: {}
+[8.015978] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.063521] (-) TimerEvent: {}
+[8.161416] (blackboard_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/blackboard_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/blackboard_interfaces/msg/task_msg__type_support.cpp.o\x1b[0m\n'}
+[8.163866] (-) TimerEvent: {}
+[8.183239] (blackboard_interfaces) StdoutLine: {'line': b'[ 25%] Built target blackboard_interfaces__rosidl_generator_c\n'}
+[8.245906] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.247432] (blackboard_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.264096] (-) TimerEvent: {}
+[8.318581] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.334133] (blackboard_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/blackboard_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/blackboard_interfaces/msg/detail/dds_fastrtps/task_msg__type_support.cpp.o\x1b[0m\n'}
+[8.364305] (-) TimerEvent: {}
+[8.399513] (blackboard_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/blackboard_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/blackboard_interfaces/msg/detail/task_msg__type_support.cpp.o\x1b[0m\n'}
+[8.464502] (-) TimerEvent: {}
+[8.565210] (-) TimerEvent: {}
+[8.665897] (-) TimerEvent: {}
+[8.766642] (-) TimerEvent: {}
+[8.867434] (-) TimerEvent: {}
+[8.968688] (-) TimerEvent: {}
+[9.070021] (-) TimerEvent: {}
+[9.170873] (-) TimerEvent: {}
+[9.271857] (-) TimerEvent: {}
+[9.372748] (-) TimerEvent: {}
+[9.481954] (-) TimerEvent: {}
+[9.583312] (-) TimerEvent: {}
+[9.601511] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.683616] (-) TimerEvent: {}
+[9.704881] (blackboard_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/blackboard_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/blackboard_interfaces/msg/detail/task_msg__type_support.c.o\x1b[0m\n'}
+[9.783911] (-) TimerEvent: {}
+[9.885664] (-) TimerEvent: {}
+[9.962538] (blackboard_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libblackboard_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.985872] (-) TimerEvent: {}
+[10.086852] (-) TimerEvent: {}
+[10.160186] (blackboard_interfaces) StdoutLine: {'line': b'[ 41%] Built target blackboard_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.187115] (-) TimerEvent: {}
+[10.228512] (blackboard_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.287453] (-) TimerEvent: {}
+[10.388355] (-) TimerEvent: {}
+[10.489271] (-) TimerEvent: {}
+[10.590246] (-) TimerEvent: {}
+[10.691729] (-) TimerEvent: {}
+[10.783480] (blackboard_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libblackboard_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.791920] (-) TimerEvent: {}
+[10.794885] (blackboard_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libblackboard_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.892263] (-) TimerEvent: {}
+[10.993415] (-) TimerEvent: {}
+[11.072874] (blackboard_interfaces) StdoutLine: {'line': b'[ 51%] Built target blackboard_interfaces__rosidl_typesupport_cpp\n'}
+[11.093616] (-) TimerEvent: {}
+[11.179545] (blackboard_interfaces) StdoutLine: {'line': b'[ 51%] Built target blackboard_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[11.193798] (-) TimerEvent: {}
+[11.294701] (-) TimerEvent: {}
+[11.395641] (-) TimerEvent: {}
+[11.496680] (-) TimerEvent: {}
+[11.598157] (-) TimerEvent: {}
+[11.615805] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[11.687080] (blackboard_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/blackboard_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/blackboard_interfaces/msg/task_msg__type_support.cpp.o\x1b[0m\n'}
+[11.698408] (-) TimerEvent: {}
+[11.747029] (blackboard_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libblackboard_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.798769] (-) TimerEvent: {}
+[11.857418] (blackboard_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libblackboard_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.898946] (-) TimerEvent: {}
+[12.000088] (-) TimerEvent: {}
+[12.064866] (blackboard_interfaces) StdoutLine: {'line': b'[ 61%] Built target blackboard_interfaces__rosidl_typesupport_c\n'}
+[12.100231] (-) TimerEvent: {}
+[12.184286] (blackboard_interfaces) StdoutLine: {'line': b'[ 61%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[12.200487] (-) TimerEvent: {}
+[12.243071] (blackboard_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.300811] (-) TimerEvent: {}
+[12.402008] (-) TimerEvent: {}
+[12.502719] (-) TimerEvent: {}
+[12.603393] (-) TimerEvent: {}
+[12.704071] (-) TimerEvent: {}
+[12.804796] (-) TimerEvent: {}
+[12.905545] (-) TimerEvent: {}
+[13.006227] (-) TimerEvent: {}
+[13.106911] (-) TimerEvent: {}
+[13.207695] (-) TimerEvent: {}
+[13.308765] (-) TimerEvent: {}
+[13.328407] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[13.399783] (blackboard_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/blackboard_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/blackboard_interfaces/msg/detail/task_msg__type_support_c.cpp.o\x1b[0m\n'}
+[13.408953] (-) TimerEvent: {}
+[13.509751] (-) TimerEvent: {}
+[13.610468] (-) TimerEvent: {}
+[13.711207] (-) TimerEvent: {}
+[13.812024] (-) TimerEvent: {}
+[13.912831] (-) TimerEvent: {}
+[14.013720] (-) TimerEvent: {}
+[14.114536] (-) TimerEvent: {}
+[14.215402] (-) TimerEvent: {}
+[14.316176] (-) TimerEvent: {}
+[14.416982] (-) TimerEvent: {}
+[14.517986] (-) TimerEvent: {}
+[14.618746] (-) TimerEvent: {}
+[14.719478] (-) TimerEvent: {}
+[14.820224] (-) TimerEvent: {}
+[14.920989] (-) TimerEvent: {}
+[15.021960] (-) TimerEvent: {}
+[15.094590] (blackboard_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libblackboard_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.122116] (-) TimerEvent: {}
+[15.222931] (-) TimerEvent: {}
+[15.324063] (-) TimerEvent: {}
+[15.425319] (-) TimerEvent: {}
+[15.498433] (blackboard_interfaces) StdoutLine: {'line': b'[ 70%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.525523] (-) TimerEvent: {}
+[15.595169] (blackboard_interfaces) StdoutLine: {'line': b'[ 70%] Built target blackboard_interfaces\n'}
+[15.625777] (-) TimerEvent: {}
+[15.695052] (blackboard_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.725872] (-) TimerEvent: {}
+[15.826580] (-) TimerEvent: {}
+[15.927323] (-) TimerEvent: {}
+[16.028078] (-) TimerEvent: {}
+[16.128801] (-) TimerEvent: {}
+[16.229600] (-) TimerEvent: {}
+[16.330317] (-) TimerEvent: {}
+[16.431054] (-) TimerEvent: {}
+[16.531785] (-) TimerEvent: {}
+[16.632502] (-) TimerEvent: {}
+[16.733265] (-) TimerEvent: {}
+[16.833965] (-) TimerEvent: {}
+[16.934676] (-) TimerEvent: {}
+[17.035349] (-) TimerEvent: {}
+[17.136078] (-) TimerEvent: {}
+[17.236899] (-) TimerEvent: {}
+[17.337600] (-) TimerEvent: {}
+[17.438267] (-) TimerEvent: {}
+[17.538895] (-) TimerEvent: {}
+[17.639628] (-) TimerEvent: {}
+[17.740296] (-) TimerEvent: {}
+[17.841109] (-) TimerEvent: {}
+[17.942149] (-) TimerEvent: {}
+[18.043112] (-) TimerEvent: {}
+[18.055278] (blackboard_interfaces) StdoutLine: {'line': b'[ 74%] Built target blackboard_interfaces__py\n'}
+[18.112486] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__python\x1b[0m\n'}
+[18.143253] (-) TimerEvent: {}
+[18.200238] (blackboard_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/blackboard_interfaces__python.dir/rosidl_generator_py/blackboard_interfaces/msg/_task_msg_s.c.o\x1b[0m\n'}
+[18.243441] (-) TimerEvent: {}
+[18.344206] (-) TimerEvent: {}
+[18.445003] (-) TimerEvent: {}
+[18.545810] (-) TimerEvent: {}
+[18.646547] (-) TimerEvent: {}
+[18.747418] (-) TimerEvent: {}
+[18.795198] (blackboard_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/blackboard_interfaces/libblackboard_interfaces__python.so\x1b[0m\n'}
+[18.847644] (-) TimerEvent: {}
+[18.948710] (-) TimerEvent: {}
+[18.977521] (blackboard_interfaces) StdoutLine: {'line': b'[ 80%] Built target blackboard_interfaces__python\n'}
+[19.036010] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[19.036794] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[19.037223] (blackboard_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[19.048891] (-) TimerEvent: {}
+[19.133146] (blackboard_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/blackboard_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/blackboard_interfaces/_blackboard_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.139566] (blackboard_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/blackboard_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/blackboard_interfaces/_blackboard_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.149192] (-) TimerEvent: {}
+[19.157272] (blackboard_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/blackboard_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/blackboard_interfaces/_blackboard_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.249427] (-) TimerEvent: {}
+[19.350787] (-) TimerEvent: {}
+[19.452646] (-) TimerEvent: {}
+[19.556317] (-) TimerEvent: {}
+[19.586750] (blackboard_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[19.593194] (blackboard_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[19.648505] (blackboard_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[19.656533] (-) TimerEvent: {}
+[19.758176] (-) TimerEvent: {}
+[19.816748] (blackboard_interfaces) StdoutLine: {'line': b'[100%] Built target blackboard_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[19.818366] (blackboard_interfaces) StdoutLine: {'line': b'[100%] Built target blackboard_interfaces__rosidl_typesupport_c__pyext\n'}
+[19.858406] (-) TimerEvent: {}
+[19.959605] (-) TimerEvent: {}
+[19.977396] (blackboard_interfaces) StdoutLine: {'line': b'[100%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.029094] (blackboard_interfaces) CommandEnded: {'returncode': 0}
+[20.059895] (-) TimerEvent: {}
+[20.160845] (-) TimerEvent: {}
+[20.262308] (-) TimerEvent: {}
+[20.363166] (-) TimerEvent: {}
+[20.375836] (blackboard_interfaces) JobProgress: {'identifier': 'blackboard_interfaces', 'progress': 'install'}
+[20.426700] (blackboard_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/workspace/build/blackboard_interfaces'], 'cwd': '/home/ubuntu/workspace/build/blackboard_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2470'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/workspace/install/blackboard_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_IP', '192.168.1.2'), ('MANAGERPID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:72403'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2542,unix/ubuntu:/tmp/.ICE-unix/2542'), ('INVOCATION_ID', '442862fe864e4083ba75904dc897bbb5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0d3caf0a_98cd_4a56_befc_17d785013aa4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.68'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/workspace/install/sshros:/home/ubuntu/workspace/install/blackboard_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'https://192.168.1.2:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/workspace/build/blackboard_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/workspace/build/sshros:/home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages:/home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/workspace/install/blackboard_interfaces:/home/ubuntu/workspace/install/sshros:/opt/ros/foxy')]), 'shell': False}
+[20.463428] (-) TimerEvent: {}
+[20.468335] (blackboard_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.470466] (blackboard_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.472324] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/rosidl_interfaces/blackboard_interfaces\n'}
+[20.475840] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__functions.h\n'}
+[20.477109] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__struct.h\n'}
+[20.478328] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__type_support.h\n'}
+[20.479479] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.480639] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg.h\n'}
+[20.482286] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/library_path.sh\n'}
+[20.483687] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/library_path.dsv\n'}
+[20.487363] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[20.488488] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.490555] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[20.496709] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.500875] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.505924] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.508282] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__rosidl_typesupport_introspection_c.h\n'}
+[20.509491] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.512410] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__builder.hpp\n'}
+[20.513578] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__struct.hpp\n'}
+[20.514818] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__traits.hpp\n'}
+[20.515964] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg.hpp\n'}
+[20.518866] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.520320] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/pythonpath.sh\n'}
+[20.521753] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/pythonpath.dsv\n'}
+[20.523290] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/__init__.py\n'}
+[20.525877] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/msg/__init__.py\n'}
+[20.527006] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/msg/_task_msg.py\n'}
+[20.529216] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[20.531329] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[20.533419] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[20.535411] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__python.so\n'}
+[20.536945] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/msg/TaskMsg.idl\n'}
+[20.538363] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/msg/TaskMsg.msg\n'}
+[20.540072] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/package_run_dependencies/blackboard_interfaces\n'}
+[20.541749] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/parent_prefix_path/blackboard_interfaces\n'}
+[20.543208] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/ament_prefix_path.sh\n'}
+[20.544623] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/ament_prefix_path.dsv\n'}
+[20.546155] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/path.sh\n'}
+[20.547556] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/path.dsv\n'}
+[20.548917] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.bash\n'}
+[20.550320] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.sh\n'}
+[20.551682] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.zsh\n'}
+[20.553031] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.dsv\n'}
+[20.554049] (blackboard_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/package.dsv\n'}
+[20.563583] (-) TimerEvent: {}
+[20.591676] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/packages/blackboard_interfaces\n'}
+[20.593656] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[20.597551] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.603596] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.606307] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.607875] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.609721] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.611152] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.612603] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfacesConfig.cmake\n'}
+[20.613746] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfacesConfig-version.cmake\n'}
+[20.615118] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/package.xml\n'}
+[20.616517] (blackboard_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_generator_c.so\n'}
+[20.619170] (blackboard_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_generator_c.so" to ""\n'}
+[20.620447] (blackboard_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[20.622983] (blackboard_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.624190] (blackboard_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_c.so\n'}
+[20.626536] (blackboard_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[20.627959] (blackboard_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[20.630655] (blackboard_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.631867] (blackboard_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_cpp.so\n'}
+[20.634221] (blackboard_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[20.663710] (-) TimerEvent: {}
+[20.764412] (-) TimerEvent: {}
+[20.783252] (blackboard_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/__init__.py'...\n"}
+[20.817180] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_generator_cExport.cmake\n'}
+[20.817883] (blackboard_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.819792] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.820413] (blackboard_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.822843] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[20.823568] (blackboard_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.826169] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_generator_cppExport.cmake\n'}
+[20.827650] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.828371] (blackboard_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.831247] (blackboard_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[20.831965] (blackboard_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.839425] (blackboard_interfaces) CommandEnded: {'returncode': 0}
+[20.866467] (-) TimerEvent: {}
+[20.967553] (-) TimerEvent: {}
+[21.068437] (-) TimerEvent: {}
+[21.169275] (-) TimerEvent: {}
+[21.271117] (-) TimerEvent: {}
+[21.300585] (blackboard_interfaces) JobEnded: {'identifier': 'blackboard_interfaces', 'rc': 0}
+[21.304234] (-) EventReactorShutdown: {}

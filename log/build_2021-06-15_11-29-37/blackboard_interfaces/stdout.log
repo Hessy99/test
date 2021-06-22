@@ -1,0 +1,31 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/workspace/build/blackboard_interfaces
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/package_run_dependencies/blackboard_interfaces
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/parent_prefix_path/blackboard_interfaces
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/path.sh
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/path.dsv
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.bash
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.sh
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.zsh
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.dsv
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/package.dsv
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/packages/blackboard_interfaces
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfacesConfig.cmake
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfacesConfig-version.cmake
+-- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/package.xml

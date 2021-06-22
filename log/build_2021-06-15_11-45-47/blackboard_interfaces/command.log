@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/workspace/build/blackboard_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/workspace/install/sshros:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/build/blackboard_interfaces -- -j4 -l4
+Invoked command in '/home/ubuntu/workspace/build/blackboard_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/workspace/install/sshros:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/build/blackboard_interfaces -- -j4 -l4

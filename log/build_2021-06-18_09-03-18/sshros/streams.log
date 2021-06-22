@@ -1,0 +1,30 @@
+[1.187s] Invoking command in '/home/ubuntu/workspace/build/sshros': PYTHONPATH=/home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/workspace/install/sshros --uninstall --editable --build-directory /home/ubuntu/workspace/build/sshros/build
+[2.231s] running develop
+[2.849s] Removing /home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages/sshros.egg-link (link to .)
+[3.011s] Invoked command in '/home/ubuntu/workspace/build/sshros' returned '0': PYTHONPATH=/home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/workspace/install/sshros --uninstall --editable --build-directory /home/ubuntu/workspace/build/sshros/build
+[3.015s] Invoking command in '/home/ubuntu/workspace/src/sshros': PYTHONPATH=/home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sshros build --build-base /home/ubuntu/workspace/build/sshros/build install --prefix /home/ubuntu/workspace/install/sshros --record /home/ubuntu/workspace/build/sshros/install.log --single-version-externally-managed
+[4.018s] running egg_info
+[4.021s] writing ../../build/sshros/sshros.egg-info/PKG-INFO
+[4.022s] writing dependency_links to ../../build/sshros/sshros.egg-info/dependency_links.txt
+[4.023s] writing entry points to ../../build/sshros/sshros.egg-info/entry_points.txt
+[4.024s] writing requirements to ../../build/sshros/sshros.egg-info/requires.txt
+[4.025s] writing top-level names to ../../build/sshros/sshros.egg-info/top_level.txt
+[4.215s] reading manifest file '../../build/sshros/sshros.egg-info/SOURCES.txt'
+[4.219s] writing manifest file '../../build/sshros/sshros.egg-info/SOURCES.txt'
+[4.220s] running build
+[4.221s] running build_py
+[4.223s] copying sshros/test.py -> /home/ubuntu/workspace/build/sshros/build/lib/sshros
+[4.225s] running install
+[4.228s] running install_lib
+[4.232s] creating /home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages/sshros
+[4.233s] copying /home/ubuntu/workspace/build/sshros/build/lib/sshros/__init__.py -> /home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages/sshros
+[4.234s] copying /home/ubuntu/workspace/build/sshros/build/lib/sshros/test.py -> /home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages/sshros
+[4.236s] byte-compiling /home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages/sshros/__init__.py to __init__.cpython-38.pyc
+[4.241s] byte-compiling /home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages/sshros/test.py to test.cpython-38.pyc
+[4.243s] running install_data
+[4.248s] running install_egg_info
+[4.256s] Copying ../../build/sshros/sshros.egg-info to /home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages/sshros-0.0.0-py3.8.egg-info
+[4.263s] running install_scripts
+[4.341s] Installing test script to /home/ubuntu/workspace/install/sshros/lib/sshros
+[4.343s] writing list of installed files to '/home/ubuntu/workspace/build/sshros/install.log'
+[4.455s] Invoked command in '/home/ubuntu/workspace/src/sshros' returned '0': PYTHONPATH=/home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sshros build --build-base /home/ubuntu/workspace/build/sshros/build install --prefix /home/ubuntu/workspace/install/sshros --record /home/ubuntu/workspace/build/sshros/install.log --single-version-externally-managed

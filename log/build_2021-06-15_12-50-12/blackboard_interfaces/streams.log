@@ -1,0 +1,168 @@
+[0.129s] Invoking command in '/home/ubuntu/workspace/build/blackboard_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/workspace/install/sshros:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/build/blackboard_interfaces -- -j4 -l4
+[0.313s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.467s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.468s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.412s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.460s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.605s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.689s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.884s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[3.825s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.733s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[5.735s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.877s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.878s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.878s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[6.129s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.193s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.204s] -- Added test 'lint_cmake' to check CMake code style
+[6.209s] -- Added test 'xmllint' to check XML markup files
+[6.245s] -- Configuring done
+[6.590s] -- Generating done
+[6.608s] -- Build files have been written to: /home/ubuntu/workspace/build/blackboard_interfaces
+[6.730s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.786s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.045s] [35m[1mScanning dependencies of target blackboard_interfaces__rosidl_generator_c[0m
+[8.055s] [  6%] Built target blackboard_interfaces__cpp
+[8.121s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.123s] [ 12%] [32mBuilding C object CMakeFiles/blackboard_interfaces__rosidl_generator_c.dir/rosidl_generator_c/blackboard_interfaces/msg/detail/task_msg__functions.c.o[0m
+[8.125s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.135s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.417s] [ 22%] [32m[1mLinking C shared library libblackboard_interfaces__rosidl_generator_c.so[0m
+[8.764s] [ 22%] Built target blackboard_interfaces__rosidl_generator_c
+[8.843s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.474s] [35m[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_cpp[0m
+[9.567s] [ 29%] [32mBuilding CXX object CMakeFiles/blackboard_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/blackboard_interfaces/msg/task_msg__type_support.cpp.o[0m
+[9.583s] [35m[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_introspection_cpp[0m
+[9.688s] [ 32%] [32mBuilding CXX object CMakeFiles/blackboard_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/blackboard_interfaces/msg/detail/task_msg__type_support.cpp.o[0m
+[9.751s] [35m[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[9.849s] [ 35%] [32mBuilding CXX object CMakeFiles/blackboard_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/blackboard_interfaces/msg/detail/dds_fastrtps/task_msg__type_support.cpp.o[0m
+[10.362s] [35m[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_introspection_c[0m
+[10.464s] [ 38%] [32mBuilding C object CMakeFiles/blackboard_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/blackboard_interfaces/msg/detail/task_msg__type_support.c.o[0m
+[10.737s] [ 41%] [32m[1mLinking C shared library libblackboard_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.959s] [ 41%] Built target blackboard_interfaces__rosidl_typesupport_introspection_c
+[11.041s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.584s] [ 48%] [32m[1mLinking CXX shared library libblackboard_interfaces__rosidl_typesupport_cpp.so[0m
+[11.856s] [ 48%] Built target blackboard_interfaces__rosidl_typesupport_cpp
+[12.064s] [ 51%] [32m[1mLinking CXX shared library libblackboard_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.449s] [35m[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_c[0m
+[12.475s] [ 51%] Built target blackboard_interfaces__rosidl_typesupport_introspection_cpp
+[12.516s] [ 54%] [32mBuilding CXX object CMakeFiles/blackboard_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/blackboard_interfaces/msg/task_msg__type_support.cpp.o[0m
+[12.679s] [ 58%] [32m[1mLinking CXX shared library libblackboard_interfaces__rosidl_typesupport_c.so[0m
+[12.873s] [ 58%] Built target blackboard_interfaces__rosidl_typesupport_c
+[13.102s] [ 61%] [32m[1mLinking CXX shared library libblackboard_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.493s] [ 61%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.554s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.637s] [35m[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_fastrtps_c[0m
+[14.717s] [ 67%] [32mBuilding CXX object CMakeFiles/blackboard_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/blackboard_interfaces/msg/detail/task_msg__type_support_c.cpp.o[0m
+[16.430s] [ 70%] [32m[1mLinking CXX shared library libblackboard_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[16.845s] [ 70%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_c
+[16.942s] [ 70%] Built target blackboard_interfaces
+[17.044s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.963s] [ 74%] Built target blackboard_interfaces__py
+[19.019s] [35m[1mScanning dependencies of target blackboard_interfaces__python[0m
+[19.107s] [ 77%] [32mBuilding C object CMakeFiles/blackboard_interfaces__python.dir/rosidl_generator_py/blackboard_interfaces/msg/_task_msg_s.c.o[0m
+[19.582s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/blackboard_interfaces/libblackboard_interfaces__python.so[0m
+[19.834s] [ 80%] Built target blackboard_interfaces__python
+[19.894s] [35m[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[19.896s] [35m[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[19.896s] [35m[1mScanning dependencies of target blackboard_interfaces__rosidl_typesupport_c__pyext[0m
+[19.975s] [ 83%] [32mBuilding C object CMakeFiles/blackboard_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/blackboard_interfaces/_blackboard_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[20.005s] [ 87%] [32mBuilding C object CMakeFiles/blackboard_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/blackboard_interfaces/_blackboard_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.009s] [ 90%] [32mBuilding C object CMakeFiles/blackboard_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/blackboard_interfaces/_blackboard_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.425s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[20.454s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[20.498s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[20.733s] [100%] Built target blackboard_interfaces__rosidl_typesupport_c__pyext
+[20.753s] [100%] Built target blackboard_interfaces__rosidl_typesupport_introspection_c__pyext
+[20.925s] [100%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[20.971s] Invoked command in '/home/ubuntu/workspace/build/blackboard_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/workspace/install/sshros:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/workspace/build/blackboard_interfaces -- -j4 -l4
+[21.379s] Invoking command in '/home/ubuntu/workspace/build/blackboard_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/workspace/install/sshros:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/build/blackboard_interfaces
+[21.421s] -- Install configuration: ""
+[21.423s] -- Execute custom install script
+[21.425s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/rosidl_interfaces/blackboard_interfaces
+[21.429s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__functions.h
+[21.430s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__struct.h
+[21.431s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__type_support.h
+[21.432s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_generator_c__visibility_control.h
+[21.433s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg.h
+[21.435s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/library_path.sh
+[21.436s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/library_path.dsv
+[21.440s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__rosidl_typesupport_fastrtps_c.h
+[21.441s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[21.443s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_fastrtps_c.so
+[21.447s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[21.448s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[21.450s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[21.453s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__rosidl_typesupport_introspection_c.h
+[21.454s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.457s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__builder.hpp
+[21.458s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__struct.hpp
+[21.459s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__traits.hpp
+[21.461s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg.hpp
+[21.464s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/include/blackboard_interfaces/msg/detail/task_msg__rosidl_typesupport_introspection_cpp.hpp
+[21.465s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/pythonpath.sh
+[21.467s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/pythonpath.dsv
+[21.468s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/__init__.py
+[21.471s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/msg/__init__.py
+[21.472s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/msg/_task_msg.py
+[21.474s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[21.476s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[21.478s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[21.480s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__python.so
+[21.482s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/msg/TaskMsg.idl
+[21.496s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/msg/TaskMsg.msg
+[21.498s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/package_run_dependencies/blackboard_interfaces
+[21.500s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/parent_prefix_path/blackboard_interfaces
+[21.502s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/ament_prefix_path.sh
+[21.504s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/ament_prefix_path.dsv
+[21.506s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/path.sh
+[21.507s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/environment/path.dsv
+[21.509s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.bash
+[21.511s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.sh
+[21.513s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.zsh
+[21.514s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.dsv
+[21.515s] -- Symlinking: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/package.dsv
+[21.554s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/ament_index/resource_index/packages/blackboard_interfaces
+[21.556s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/rosidl_cmake-extras.cmake
+[21.557s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.559s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[21.561s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[21.563s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.565s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.567s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.569s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfacesConfig.cmake
+[21.570s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfacesConfig-version.cmake
+[21.572s] -- Up-to-date symlink: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/package.xml
+[21.573s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_generator_c.so
+[21.576s] -- Set runtime path of "/home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_generator_c.so" to ""
+[21.577s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_introspection_c.so
+[21.579s] -- Set runtime path of "/home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[21.581s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_c.so
+[21.583s] -- Set runtime path of "/home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_c.so" to ""
+[21.587s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_introspection_cpp.so
+[21.596s] -- Set runtime path of "/home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[21.597s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_cpp.so
+[21.599s] -- Set runtime path of "/home/ubuntu/workspace/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_cpp.so" to ""
+[21.746s] Compiling '/home/ubuntu/workspace/install/blackboard_interfaces/lib/python3.8/site-packages/blackboard_interfaces/__init__.py'...
+[21.770s] -- Old export file "/home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[21.771s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_generator_cExport.cmake
+[21.772s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_generator_cExport-noconfig.cmake
+[21.774s] -- Old export file "/home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[21.775s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[21.777s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[21.779s] -- Old export file "/home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[21.780s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cExport.cmake
+[21.781s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[21.784s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_generator_cppExport.cmake
+[21.793s] -- Old export file "/home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[21.795s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[21.798s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[21.799s] -- Old export file "/home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[21.799s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cppExport.cmake
+[21.800s] -- Installing: /home/ubuntu/workspace/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[21.813s] Invoked command in '/home/ubuntu/workspace/build/blackboard_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/workspace/install/sshros:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/workspace/build/blackboard_interfaces

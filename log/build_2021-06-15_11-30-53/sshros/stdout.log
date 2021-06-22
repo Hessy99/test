@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing sshros.egg-info/PKG-INFO
+writing dependency_links to sshros.egg-info/dependency_links.txt
+writing entry points to sshros.egg-info/entry_points.txt
+writing requirements to sshros.egg-info/requires.txt
+writing top-level names to sshros.egg-info/top_level.txt
+reading manifest file 'sshros.egg-info/SOURCES.txt'
+writing manifest file 'sshros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/workspace/install/sshros/lib/python3.8/site-packages/sshros.egg-link (link to .)
+Installing test script to /home/ubuntu/workspace/install/sshros/lib/sshros
+
+Installed /home/ubuntu/workspace/build/sshros
+running install_data
