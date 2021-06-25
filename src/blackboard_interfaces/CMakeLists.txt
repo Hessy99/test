@@ -24,6 +24,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/TaskMsg.msg
   DEPENDENCIES geometry_msgs
  )
+
+install(
+  FILES bridge_mapping_rules.yaml
+  DESTINATION share/${PROJECT_NAME})
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)

@@ -5,8 +5,8 @@
 #ifndef BLACKBOARD_INTERFACES__MSG__TASK_MSG_H_
 #define BLACKBOARD_INTERFACES__MSG__TASK_MSG_H_
 
-#include "blackboard_interfaces/msg/detail/task_msg__struct.h"
-#include "blackboard_interfaces/msg/detail/task_msg__functions.h"
-#include "blackboard_interfaces/msg/detail/task_msg__type_support.h"
+#include "blackboard_interfaces/msg/task_msg__struct.h"
+#include "blackboard_interfaces/msg/task_msg__functions.h"
+#include "blackboard_interfaces/msg/task_msg__type_support.h"
 
 #endif  // BLACKBOARD_INTERFACES__MSG__TASK_MSG_H_

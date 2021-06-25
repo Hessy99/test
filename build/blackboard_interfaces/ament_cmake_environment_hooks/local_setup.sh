@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/ubuntu/workspace/install/blackboard_interfaces"}
+: ${AMENT_CURRENT_PREFIX:="/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \
@@ -119,7 +119,7 @@ if [ -z "$AMENT_RETURN_ENVIRONMENT_HOOKS" ]; then
       IFS=$_package_local_setup_IFS
       # trace output
       if [ -n "$AMENT_TRACE_SETUP_FILES" ]; then
-        echo "# . \"$_hook\""
+        echo ". \"$_hook\""
       fi
       . "$_hook"
     fi

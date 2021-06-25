@@ -1,0 +1,17 @@
+[0.212s] Invoking command in '/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/sshros': PYTHONPATH=/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros --editable --build-directory /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/sshros/build --no-deps install_data --install-dir /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros
+[0.410s] running develop
+[0.499s] running egg_info
+[0.499s] writing sshros.egg-info/PKG-INFO
+[0.499s] writing dependency_links to sshros.egg-info/dependency_links.txt
+[0.499s] writing entry points to sshros.egg-info/entry_points.txt
+[0.499s] writing requirements to sshros.egg-info/requires.txt
+[0.499s] writing top-level names to sshros.egg-info/top_level.txt
+[0.523s] reading manifest file 'sshros.egg-info/SOURCES.txt'
+[0.524s] writing manifest file 'sshros.egg-info/SOURCES.txt'
+[0.525s] running build_ext
+[0.525s] Creating /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros/lib/python3.6/site-packages/sshros.egg-link (link to .)
+[0.526s] Installing test script to /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros/lib/sshros
+[0.526s] 
+[0.526s] Installed /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/sshros
+[0.526s] running install_data
+[0.545s] Invoked command in '/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/sshros' returned '0': PYTHONPATH=/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros --editable --build-directory /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/sshros/build --no-deps install_data --install-dir /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros

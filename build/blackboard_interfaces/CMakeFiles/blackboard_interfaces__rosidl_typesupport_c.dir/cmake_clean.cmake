@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "rosidl_typesupport_c/blackboard_interfaces/msg/task_msg__type_support.cpp"
   "CMakeFiles/blackboard_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/blackboard_interfaces/msg/task_msg__type_support.cpp.o"
   "libblackboard_interfaces__rosidl_typesupport_c.pdb"
   "libblackboard_interfaces__rosidl_typesupport_c.so"
-  "rosidl_typesupport_c/blackboard_interfaces/msg/task_msg__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

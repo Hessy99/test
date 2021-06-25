@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/workspace/build/blackboard_interfaces/blackboard_interfaces__py
+# Install script for directory: /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/blackboard_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/workspace/install/blackboard_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

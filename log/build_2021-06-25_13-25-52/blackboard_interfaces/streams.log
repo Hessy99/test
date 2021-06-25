@@ -1,0 +1,82 @@
+[0.017s] Invoking command in '/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros:/opt/ros/dashing /usr/bin/cmake --build /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces -- -j12 -l12
+[0.066s] [ 10%] Built target blackboard_interfaces__rosidl_generator_c
+[0.066s] [ 13%] Built target blackboard_interfaces__cpp
+[0.087s] [ 34%] Built target blackboard_interfaces__rosidl_typesupport_introspection_cpp
+[0.087s] [ 34%] Built target blackboard_interfaces__rosidl_typesupport_introspection_c
+[0.091s] [ 44%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.115s] [ 55%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_c
+[0.118s] [ 65%] Built target blackboard_interfaces__rosidl_typesupport_cpp
+[0.139s] [ 75%] Built target blackboard_interfaces__rosidl_typesupport_c
+[0.156s] [ 75%] Built target blackboard_interfaces
+[0.173s] [ 79%] Built target blackboard_interfaces__py
+[0.196s] [ 86%] Built target blackboard_interfaces__python
+[0.220s] [ 93%] Built target blackboard_interfaces__rosidl_typesupport_c__pyext
+[0.221s] [100%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.230s] Invoked command in '/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros:/opt/ros/dashing /usr/bin/cmake --build /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces -- -j12 -l12
+[0.279s] Invoking command in '/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros:/opt/ros/dashing /usr/bin/cmake --build /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces --target install -- -j12 -l12
+[0.323s] [  3%] Built target blackboard_interfaces__cpp
+[0.327s] [ 13%] Built target blackboard_interfaces__rosidl_generator_c
+[0.345s] [ 24%] Built target blackboard_interfaces__rosidl_typesupport_introspection_cpp
+[0.349s] [ 34%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.350s] [ 44%] Built target blackboard_interfaces__rosidl_typesupport_introspection_c
+[0.372s] [ 65%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_c
+[0.372s] [ 65%] Built target blackboard_interfaces__rosidl_typesupport_cpp
+[0.395s] [ 75%] Built target blackboard_interfaces__rosidl_typesupport_c
+[0.412s] [ 75%] Built target blackboard_interfaces
+[0.430s] [ 79%] Built target blackboard_interfaces__py
+[0.452s] [ 86%] Built target blackboard_interfaces__python
+[0.479s] [ 93%] Built target blackboard_interfaces__rosidl_typesupport_c__pyext
+[0.482s] [100%] Built target blackboard_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.498s] [36mInstall the project...[0m
+[0.505s] -- Install configuration: ""
+[0.506s] -- Execute custom install script
+[0.506s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/ament_index/resource_index/rosidl_interfaces/blackboard_interfaces
+[0.507s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg.hpp
+[0.507s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg__struct.hpp
+[0.507s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg__traits.hpp
+[0.507s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.507s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg.h
+[0.508s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg__functions.h
+[0.508s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg__struct.h
+[0.508s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg__type_support.h
+[0.508s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/environment/library_path.sh
+[0.508s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_generator_c.so
+[0.509s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_c.so
+[0.509s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_cpp.so
+[0.510s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.510s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg__rosidl_typesupport_introspection_c.h
+[0.510s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_introspection_c.so
+[0.511s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.511s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.511s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.512s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg__rosidl_typesupport_fastrtps_c.h
+[0.512s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.512s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.513s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/include/blackboard_interfaces/msg/task_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.513s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/libblackboard_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.513s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/environment/pythonpath.sh
+[0.514s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/python3.6/site-packages/blackboard_interfaces/__init__.py
+[0.514s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/python3.6/site-packages/blackboard_interfaces/msg/__init__.py
+[0.514s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/python3.6/site-packages/blackboard_interfaces/msg/_task_msg.py
+[0.515s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/python3.6/site-packages/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[0.515s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/python3.6/site-packages/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[0.516s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/lib/libblackboard_interfaces__python.so
+[0.516s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/msg/TaskMsg.idl
+[0.516s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/msg/TaskMsg.msg
+[0.517s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/bridge_mapping_rules.yaml
+[0.517s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/ament_index/resource_index/package_run_dependencies/blackboard_interfaces
+[0.517s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/ament_index/resource_index/parent_prefix_path/blackboard_interfaces
+[0.518s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/environment/ament_prefix_path.sh
+[0.518s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/environment/path.sh
+[0.518s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.bash
+[0.518s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.sh
+[0.518s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/local_setup.zsh
+[0.519s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/ament_index/resource_index/packages/blackboard_interfaces
+[0.519s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.519s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.519s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.520s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.520s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfacesConfig.cmake
+[0.520s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/cmake/blackboard_interfacesConfig-version.cmake
+[0.520s] -- Up-to-date symlink: /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/share/blackboard_interfaces/package.xml
+[0.564s] Invoked command in '/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros:/opt/ros/dashing /usr/bin/cmake --build /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces --target install -- -j12 -l12

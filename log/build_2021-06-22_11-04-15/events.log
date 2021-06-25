@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001043] (-) JobUnselected: {'identifier': 'blackboard_interfaces'}
-[0.001357] (-) JobUnselected: {'identifier': 'sshros'}
-[0.002446] (-) EventReactorShutdown: {}

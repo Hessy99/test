@@ -4,25 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_typesupport_cpp/blackboard_interfaces/msg/task_msg__type_support.cpp" "/home/ubuntu/workspace/build/blackboard_interfaces/CMakeFiles/blackboard_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/blackboard_interfaces/msg/task_msg__type_support.cpp.o"
+  "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_typesupport_cpp/blackboard_interfaces/msg/task_msg__type_support.cpp" "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/CMakeFiles/blackboard_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/blackboard_interfaces/msg/task_msg__type_support.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "RCUTILS_ENABLE_FAULT_INJECTION"
-  "ROS_PACKAGE_NAME=\"blackboard_interfaces\""
-  "blackboard_interfaces__rosidl_typesupport_cpp_EXPORTS"
-  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "rosidl_generator_cpp"
-  "/opt/ros/foxy/include"
+  "rosidl_typesupport_fastrtps_cpp"
+  "/opt/ros/dashing/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/CMakeFiles/blackboard_interfaces__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

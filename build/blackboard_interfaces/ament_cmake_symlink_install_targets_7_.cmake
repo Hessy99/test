@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_py/blackboard_interfaces/blackboard_interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" "TARGETS" "blackboard_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.6/site-packages/blackboard_interfaces")

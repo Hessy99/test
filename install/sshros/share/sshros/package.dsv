@@ -4,3 +4,6 @@ source;share/sshros/hook/pythonpath.sh
 source;share/sshros/hook/ament_prefix_path.ps1
 source;share/sshros/hook/ament_prefix_path.dsv
 source;share/sshros/hook/ament_prefix_path.sh
+source;../../build/sshros/share/sshros/hook/pythonpath_develop.ps1
+source;../../build/sshros/share/sshros/hook/pythonpath_develop.dsv
+source;../../build/sshros/share/sshros/hook/pythonpath_develop.sh

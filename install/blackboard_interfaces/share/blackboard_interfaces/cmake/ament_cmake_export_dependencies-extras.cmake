@@ -1,1 +1,1 @@
-/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

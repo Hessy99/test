@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_c/blackboard_interfaces/msg/detail/task_msg__functions.c
-blackboard_interfaces/msg/detail/task_msg__functions.h
-/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_c/blackboard_interfaces/msg/detail/blackboard_interfaces/msg/detail/task_msg__functions.h
+/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_c/blackboard_interfaces/msg/task_msg__functions.c
+blackboard_interfaces/msg/task_msg__functions.h
+/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_c/blackboard_interfaces/msg/blackboard_interfaces/msg/task_msg__functions.h
 assert.h
 -
 stdbool.h
@@ -17,10 +17,10 @@ stdlib.h
 -
 string.h
 -
-geometry_msgs/msg/detail/pose__functions.h
-/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_c/blackboard_interfaces/msg/detail/geometry_msgs/msg/detail/pose__functions.h
+geometry_msgs/msg/pose__functions.h
+/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_c/blackboard_interfaces/msg/geometry_msgs/msg/pose__functions.h
 
-/opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.h
+/opt/ros/dashing/include/geometry_msgs/msg/point__struct.h
 stdbool.h
 -
 stddef.h
@@ -28,31 +28,31 @@ stddef.h
 stdint.h
 -
 
-/opt/ros/foxy/include/geometry_msgs/msg/detail/pose__functions.h
+/opt/ros/dashing/include/geometry_msgs/msg/pose__functions.h
 stdbool.h
 -
 stdlib.h
 -
-rosidl_runtime_c/visibility_control.h
-/opt/ros/foxy/include/geometry_msgs/msg/detail/rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/visibility_control.h
+/opt/ros/dashing/include/geometry_msgs/msg/rosidl_generator_c/visibility_control.h
 geometry_msgs/msg/rosidl_generator_c__visibility_control.h
-/opt/ros/foxy/include/geometry_msgs/msg/detail/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
-geometry_msgs/msg/detail/pose__struct.h
-/opt/ros/foxy/include/geometry_msgs/msg/detail/geometry_msgs/msg/detail/pose__struct.h
+/opt/ros/dashing/include/geometry_msgs/msg/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+geometry_msgs/msg/pose__struct.h
+/opt/ros/dashing/include/geometry_msgs/msg/geometry_msgs/msg/pose__struct.h
 
-/opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.h
+/opt/ros/dashing/include/geometry_msgs/msg/pose__struct.h
 stdbool.h
 -
 stddef.h
 -
 stdint.h
 -
-geometry_msgs/msg/detail/point__struct.h
-/opt/ros/foxy/include/geometry_msgs/msg/detail/geometry_msgs/msg/detail/point__struct.h
-geometry_msgs/msg/detail/quaternion__struct.h
-/opt/ros/foxy/include/geometry_msgs/msg/detail/geometry_msgs/msg/detail/quaternion__struct.h
+geometry_msgs/msg/point__struct.h
+/opt/ros/dashing/include/geometry_msgs/msg/geometry_msgs/msg/point__struct.h
+geometry_msgs/msg/quaternion__struct.h
+/opt/ros/dashing/include/geometry_msgs/msg/geometry_msgs/msg/quaternion__struct.h
 
-/opt/ros/foxy/include/geometry_msgs/msg/detail/quaternion__struct.h
+/opt/ros/dashing/include/geometry_msgs/msg/quaternion__struct.h
 stdbool.h
 -
 stddef.h
@@ -60,31 +60,31 @@ stddef.h
 stdint.h
 -
 
-/opt/ros/foxy/include/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+/opt/ros/dashing/include/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
 
-/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
-
-rosidl_generator_c/blackboard_interfaces/msg/detail/task_msg__functions.h
-stdbool.h
--
-stdlib.h
--
-rosidl_runtime_c/visibility_control.h
-rosidl_generator_c/blackboard_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
-blackboard_interfaces/msg/rosidl_generator_c__visibility_control.h
-rosidl_generator_c/blackboard_interfaces/msg/detail/blackboard_interfaces/msg/rosidl_generator_c__visibility_control.h
-blackboard_interfaces/msg/detail/task_msg__struct.h
-rosidl_generator_c/blackboard_interfaces/msg/detail/blackboard_interfaces/msg/detail/task_msg__struct.h
-
-rosidl_generator_c/blackboard_interfaces/msg/detail/task_msg__struct.h
-stdbool.h
--
-stddef.h
--
-stdint.h
--
-geometry_msgs/msg/detail/pose__struct.h
-rosidl_generator_c/blackboard_interfaces/msg/detail/geometry_msgs/msg/detail/pose__struct.h
+/opt/ros/dashing/include/rosidl_generator_c/visibility_control.h
 
 rosidl_generator_c/blackboard_interfaces/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/blackboard_interfaces/msg/task_msg__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_generator_c/visibility_control.h
+rosidl_generator_c/blackboard_interfaces/msg/rosidl_generator_c/visibility_control.h
+blackboard_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/blackboard_interfaces/msg/blackboard_interfaces/msg/rosidl_generator_c__visibility_control.h
+blackboard_interfaces/msg/task_msg__struct.h
+rosidl_generator_c/blackboard_interfaces/msg/blackboard_interfaces/msg/task_msg__struct.h
+
+rosidl_generator_c/blackboard_interfaces/msg/task_msg__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+geometry_msgs/msg/pose__struct.h
+rosidl_generator_c/blackboard_interfaces/msg/geometry_msgs/msg/pose__struct.h
 

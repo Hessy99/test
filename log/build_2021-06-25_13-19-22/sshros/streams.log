@@ -1,0 +1,18 @@
+[0.199s] Invoking command in '/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/sshros': PYTHONPATH=/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros --editable --build-directory /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/sshros/build --no-deps install_data --install-dir /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros
+[0.373s] running develop
+[0.455s] running egg_info
+[0.455s] writing sshros.egg-info/PKG-INFO
+[0.455s] writing dependency_links to sshros.egg-info/dependency_links.txt
+[0.455s] writing entry points to sshros.egg-info/entry_points.txt
+[0.455s] writing requirements to sshros.egg-info/requires.txt
+[0.455s] writing top-level names to sshros.egg-info/top_level.txt
+[0.479s] reading manifest file 'sshros.egg-info/SOURCES.txt'
+[0.479s] writing manifest file 'sshros.egg-info/SOURCES.txt'
+[0.482s] running build_ext
+[0.483s] Creating /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros/lib/python3.6/site-packages/site.py
+[0.483s] Creating /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros/lib/python3.6/site-packages/sshros.egg-link (link to .)
+[0.484s] Installing test = sshros.test:maintest_ssh script to /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros/lib/sshros
+[0.484s] 
+[0.484s] Installed /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/sshros
+[0.484s] running install_data
+[0.501s] Invoked command in '/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/sshros' returned '0': PYTHONPATH=/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros --editable --build-directory /home/student/ros2_bridge_custom_interfaces/ros2_ws/build/sshros/build --no-deps install_data --install-dir /home/student/ros2_bridge_custom_interfaces/ros2_ws/install/sshros

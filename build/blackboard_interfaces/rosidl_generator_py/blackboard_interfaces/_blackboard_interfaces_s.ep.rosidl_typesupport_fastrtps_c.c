@@ -20,13 +20,13 @@ static struct PyModuleDef blackboard_interfaces__module = {
 
 #include <stdbool.h>
 #include <stdint.h>
-#include "rosidl_runtime_c/visibility_control.h"
-#include "rosidl_runtime_c/message_type_support_struct.h"
-#include "rosidl_runtime_c/service_type_support_struct.h"
-#include "rosidl_runtime_c/action_type_support_struct.h"
-#include "blackboard_interfaces/msg/detail/task_msg__type_support.h"
-#include "blackboard_interfaces/msg/detail/task_msg__struct.h"
-#include "blackboard_interfaces/msg/detail/task_msg__functions.h"
+#include "rosidl_generator_c/visibility_control.h"
+#include "rosidl_generator_c/message_type_support_struct.h"
+#include "rosidl_generator_c/service_type_support_struct.h"
+#include "rosidl_generator_c/action_type_support_struct.h"
+#include "blackboard_interfaces/msg/task_msg__type_support.h"
+#include "blackboard_interfaces/msg/task_msg__struct.h"
+#include "blackboard_interfaces/msg/task_msg__functions.h"
 
 static void * blackboard_interfaces__msg__task_msg__create_ros_message(void)
 {

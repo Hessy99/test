@@ -1,0 +1,1 @@
+/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_typesupport_introspection_c/blackboard_interfaces/msg/task_msg__rosidl_typesupport_introspection_c.h

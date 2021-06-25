@@ -1,7 +1,7 @@
 # generated from
 # ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_uninstall_script.cmake.in
 
-set(install_manifest "/home/ubuntu/workspace/build/blackboard_interfaces/symlink_install_manifest.txt")
+set(install_manifest "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/symlink_install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find symlink install manifest: ${install_manifest}")
 endif()

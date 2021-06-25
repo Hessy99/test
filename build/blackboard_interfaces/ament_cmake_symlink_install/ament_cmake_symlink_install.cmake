@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/workspace/install/blackboard_interfaces/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/workspace/install/blackboard_interfaces/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/workspace/install/blackboard_interfaces/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/ubuntu/workspace/install/blackboard_interfaces/${destination}")
+      set(destination "/home/student/ros2_bridge_custom_interfaces/ros2_ws/install/blackboard_interfaces/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,128 +310,116 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/ubuntu/workspace/src/blackboard_interfaces" DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.h")
+# install(DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.hpp")
 
-# install(FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
+# install(DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.h")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/blackboard_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/blackboard_interfaces/environment")
+# install(FILES "/opt/ros/dashing/lib/python3.6/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/opt/ros/dashing/lib/python3.6/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
 
-# install(DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_typesupport_fastrtps_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/ubuntu/workspace/src/blackboard_interfaces" DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_typesupport_fastrtps_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+# install("TARGETS" "blackboard_interfaces__rosidl_generator_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "blackboard_interfaces__rosidl_typesupport_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "blackboard_interfaces__rosidl_typesupport_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_typesupport_introspection_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_typesupport_introspection_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.h")
+
+# install("TARGETS" "blackboard_interfaces__rosidl_typesupport_introspection_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_typesupport_introspection_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_typesupport_introspection_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.hpp")
+
+# install("TARGETS" "blackboard_interfaces__rosidl_typesupport_introspection_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_typesupport_fastrtps_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_typesupport_fastrtps_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN_EXCLUDE" "*.cpp")
 
 # install("TARGETS" "blackboard_interfaces__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_typesupport_fastrtps_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/ubuntu/workspace/src/blackboard_interfaces" DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_typesupport_fastrtps_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_typesupport_fastrtps_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_typesupport_fastrtps_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN_EXCLUDE" "*.cpp")
 
 # install("TARGETS" "blackboard_interfaces__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_symlink_install_targets_6_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_typesupport_introspection_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/ubuntu/workspace/src/blackboard_interfaces" DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_typesupport_introspection_c/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.h")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/blackboard_interfaces/environment")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/blackboard_interfaces/environment")
 
-# install(DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/ubuntu/workspace/src/blackboard_interfaces" DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.hpp")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_py/blackboard_interfaces/__init__.py" "DESTINATION" "lib/python3.6/site-packages/blackboard_interfaces")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_py/blackboard_interfaces/__init__.py" "DESTINATION" "lib/python3.6/site-packages/blackboard_interfaces")
 
-# install(DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_typesupport_introspection_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/ubuntu/workspace/src/blackboard_interfaces" DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_typesupport_introspection_cpp/blackboard_interfaces/" "DESTINATION" "include/blackboard_interfaces" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_py/blackboard_interfaces/msg/" "DESTINATION" "lib/python3.6/site-packages/blackboard_interfaces/msg" "PATTERN" "*.py")
+ament_cmake_symlink_install_directory("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" DIRECTORY "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_generator_py/blackboard_interfaces/msg/" "DESTINATION" "lib/python3.6/site-packages/blackboard_interfaces/msg" "PATTERN" "*.py")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/blackboard_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/blackboard_interfaces/environment")
+# install("TARGETS" "blackboard_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.6/site-packages/blackboard_interfaces")
+include("/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_symlink_install_targets_7_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/blackboard_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/blackboard_interfaces/environment")
-
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_py/blackboard_interfaces/__init__.py" "DESTINATION" "lib/python3.8/site-packages/blackboard_interfaces")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_py/blackboard_interfaces/__init__.py" "DESTINATION" "lib/python3.8/site-packages/blackboard_interfaces")
-
-# install(DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_py/blackboard_interfaces/msg/" "DESTINATION" "lib/python3.8/site-packages/blackboard_interfaces/msg" "PATTERN" "*.py")
-ament_cmake_symlink_install_directory("/home/ubuntu/workspace/src/blackboard_interfaces" DIRECTORY "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_generator_py/blackboard_interfaces/msg/" "DESTINATION" "lib/python3.8/site-packages/blackboard_interfaces/msg" "PATTERN" "*.py")
-
-# install("TARGETS" "blackboard_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/blackboard_interfaces")
-include("/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "blackboard_interfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/blackboard_interfaces")
-include("/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "blackboard_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/blackboard_interfaces")
-include("/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+# install("TARGETS" "blackboard_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.6/site-packages/blackboard_interfaces")
+include("/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_symlink_install_targets_8_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "blackboard_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_symlink_install_targets_9_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_adapter/blackboard_interfaces/msg/TaskMsg.idl" "DESTINATION" "share/blackboard_interfaces/msg")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_adapter/blackboard_interfaces/msg/TaskMsg.idl" "DESTINATION" "share/blackboard_interfaces/msg")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_adapter/blackboard_interfaces/msg/TaskMsg.idl" "DESTINATION" "share/blackboard_interfaces/msg")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_adapter/blackboard_interfaces/msg/TaskMsg.idl" "DESTINATION" "share/blackboard_interfaces/msg")
 
-# install(FILES "/home/ubuntu/workspace/src/blackboard_interfaces/msg/TaskMsg.msg" "DESTINATION" "share/blackboard_interfaces/msg")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/src/blackboard_interfaces/msg/TaskMsg.msg" "DESTINATION" "share/blackboard_interfaces/msg")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces/msg/TaskMsg.msg" "DESTINATION" "share/blackboard_interfaces/msg")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces/msg/TaskMsg.msg" "DESTINATION" "share/blackboard_interfaces/msg")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "bridge_mapping_rules.yaml" "DESTINATION" "share/blackboard_interfaces")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "bridge_mapping_rules.yaml" "DESTINATION" "share/blackboard_interfaces")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/blackboard_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/blackboard_interfaces/environment")
+# install(FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
 
-# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
+# install(FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/blackboard_interfaces/environment")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/blackboard_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/blackboard_interfaces/environment")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/blackboard_interfaces")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/blackboard_interfaces")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/blackboard_interfaces")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/blackboard_interfaces")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/blackboard_interfaces")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/blackboard_interfaces")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/blackboard_interfaces")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/blackboard_interfaces")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/blackboard_interfaces")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/blackboard_interfaces")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/blackboard_interfaces")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/blackboard_interfaces")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/blackboard_interfaces")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/blackboard_interfaces")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/blackboard_interfaces")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/blackboard_interfaces")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/blackboard_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_core/blackboard_interfacesConfig.cmake" "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_core/blackboard_interfacesConfig-version.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_core/blackboard_interfacesConfig.cmake" "/home/student/ros2_bridge_custom_interfaces/ros2_ws/build/blackboard_interfaces/ament_cmake_core/blackboard_interfacesConfig-version.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
 
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-
-# install(FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_core/blackboard_interfacesConfig.cmake" "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_core/blackboard_interfacesConfig-version.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_core/blackboard_interfacesConfig.cmake" "/home/ubuntu/workspace/build/blackboard_interfaces/ament_cmake_core/blackboard_interfacesConfig-version.cmake" "DESTINATION" "share/blackboard_interfaces/cmake")
-
-# install(FILES "/home/ubuntu/workspace/src/blackboard_interfaces/package.xml" "DESTINATION" "share/blackboard_interfaces")
-ament_cmake_symlink_install_files("/home/ubuntu/workspace/src/blackboard_interfaces" FILES "/home/ubuntu/workspace/src/blackboard_interfaces/package.xml" "DESTINATION" "share/blackboard_interfaces")
+# install(FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces/package.xml" "DESTINATION" "share/blackboard_interfaces")
+ament_cmake_symlink_install_files("/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces" FILES "/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces/package.xml" "DESTINATION" "share/blackboard_interfaces")

@@ -1,1 +1,1 @@
-/home/ubuntu/workspace/src/sshros/setup.py
+/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/sshros/setup.py

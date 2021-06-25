@@ -1,1 +1,1 @@
-/home/ubuntu/workspace/src/blackboard_interfaces/msg/TaskMsg.msg
+/home/student/ros2_bridge_custom_interfaces/ros2_ws/src/blackboard_interfaces/msg/TaskMsg.msg

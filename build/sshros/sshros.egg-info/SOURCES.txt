@@ -11,6 +11,10 @@ setup.py
 resource/sshros
 sshros/__init__.py
 sshros/test.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+sshros.egg-info/PKG-INFO
+sshros.egg-info/SOURCES.txt
+sshros.egg-info/dependency_links.txt
+sshros.egg-info/entry_points.txt
+sshros.egg-info/requires.txt
+sshros.egg-info/top_level.txt
+sshros.egg-info/zip-safe

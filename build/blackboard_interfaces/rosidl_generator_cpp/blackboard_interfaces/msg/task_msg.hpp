@@ -4,8 +4,7 @@
 #ifndef BLACKBOARD_INTERFACES__MSG__TASK_MSG_HPP_
 #define BLACKBOARD_INTERFACES__MSG__TASK_MSG_HPP_
 
-#include "blackboard_interfaces/msg/detail/task_msg__struct.hpp"
-#include "blackboard_interfaces/msg/detail/task_msg__builder.hpp"
-#include "blackboard_interfaces/msg/detail/task_msg__traits.hpp"
+#include "blackboard_interfaces/msg/task_msg__struct.hpp"
+#include "blackboard_interfaces/msg/task_msg__traits.hpp"
 
 #endif  // BLACKBOARD_INTERFACES__MSG__TASK_MSG_HPP_
